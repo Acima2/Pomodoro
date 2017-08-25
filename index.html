@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pomodoro</title>
+	<meta charset="UTF-8">
+	    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="background">
+		<img src="img/vanity.jpg">
+
+<!-- Panneau rond qui affiche le temps qui s'écoule en haut du sablier-->
+		<div id="panneau" class="temps">
+			<div id="timeM" class="min">00</div>
+			 
+			<div id="timeS" class="min">00</div>
+		</div> <!--fin de div panneau-->
+
+<!-- Boutons Marche, Pause et Reset placé dans les pages du livre-->
+		<table id="gri_bouton" cellspacing="20" class="boutons"> <!--  Contient tout nos boutons -->
+			<tr>
+				<td class="cont_bouton">
+				<button id="start" class="bouton">Marche</button>
+				</td>
+				<td class="cont_bouton">
+				<button id="reset" class="bouton">Reset</button>
+				</td>
+			</tr>
+		</table>
+
+<!--Images cachées qui apparaissent automatiquement quand la pause arrive
+et qui disparaissent quand le travail reprend-->
+		<!-- <div class="evasion">
+			<img src="img/forest.jpg" class="evasion">
+		</div>
+		<div class="dehors">
+			<img src="img/cascade.jpg" class="dehors">
+		</div> -->
+		
+	</div> <!--fin de div background-->
+
+	<script src="js/jquery-3.2.1.js"></script>
+    <script src="js/chrono.js" type="text/javascript"></script>
+
+</body>
+</html>

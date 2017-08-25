@@ -1,0 +1,80 @@
+/* Image de fond*/
+.background {
+	z-index: 1;
+	position: absolute;
+
+}
+
+/*Tableau contenant les boutons*/
+.boutons {
+	z-index: 2;
+	position: relative;
+	margin-top: 20%;
+	margin-left: 28%;
+	font-size: 27px;
+	font-weight: bold;
+	width: 250px;
+	height: 100px;
+}
+
+/*Boutons*/
+.bouton {
+	width: 94px;
+	height: 45px;
+	color: #7F6C50;
+	font-weight: bold;
+	background-color: #FFF7EC;
+	opacity: 0.8;
+	border: none;
+	border-radius: 10%;
+}
+
+/*Panneau du temps*/
+.temps {
+	z-index: 2;
+	position: relative;
+	margin-top:-55%; 
+	margin-left:20%;
+	height: 90px;
+	width: 90px;
+	border-radius: 50%;
+	background-color: #FFF7EC;
+	opacity: 0.8;
+}
+
+/*Affichage du temps qui s'écoule*/
+.min {
+	color: #7F6C50;
+	font-size: 13px;
+	font-weight: bold;
+	display: inline-block;
+	margin-top: 40%;
+	margin-left: 17px;
+}
+
+/*A VENIR EN COURS D'ELABORATION*/
+
+/*Affiche une image de forêt dans les 
+orbites du crâne quand arrive la pause*/
+/*.evasion {
+	z-index: 3;
+	height: 110px;
+	width: 110px;
+	border-radius: 50%;
+	margin-left: 49%;
+	margin-top: -32%;
+	opacity: 0.9;
+}
+
+Affiche une image de cascade dans les 
+orbites du crâne quand arrive la pause
+.dehors {
+	z-index: 3;
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	margin-left: 39.6%;
+	margin-top: -9%;
+	opacity: 0.9;
+}*/
+
